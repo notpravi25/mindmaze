@@ -1,0 +1,75 @@
+{
+  "random_seed": 42,
+  "val_fraction": 0.2,
+  "train": {
+    "split": "train",
+    "total_s1": 1765456,
+    "pct_of_total": 80.0,
+    "country_distribution": {
+      "US": 1058906,
+      "India": 706550
+    },
+    "country_pct": {
+      "US": 59.98,
+      "India": 40.02
+    },
+    "singletons": 98598,
+    "singleton_pct": 5.585,
+    "single_matches": 95325,
+    "single_match_pct": 5.399,
+    "multi_matches": 1571533,
+    "multi_match_pct": 89.016,
+    "total_true_pairs": 6110933,
+    "mean_matches_per_s1": 3.4614,
+    "match_count_freq": {
+      "0": 98598,
+      "1": 95325,
+      "2": 300007,
+      "3": 424836,
+      "4": 387221,
+      "5": 257636,
+      "6": 131804,
+      "7": 51262,
+      "8": 15007,
+      "9": 3322,
+      "10": 408,
+      "11": 30
+    }
+  },
+  "validation": {
+    "split": "validation",
+    "total_s1": 441365,
+    "pct_of_total": 20.0,
+    "country_distribution": {
+      "India": 176638,
+      "US": 264727
+    },
+    "country_pct": {
+      "India": 40.02,
+      "US": 59.98
+    },
+    "singletons": 24649,
+    "singleton_pct": 5.585,
+    "single_matches": 23832,
+    "single_match_pct": 5.4,
+    "multi_matches": 392884,
+    "multi_match_pct": 89.016,
+    "total_true_pairs": 1527432,
+    "mean_matches_per_s1": 3.4607,
+    "match_count_freq": {
+      "0": 24649,
+      "1": 23832,
+      "2": 75205,
+      "3": 106005,
+      "4": 96894,
+      "5": 64321,
+      "6": 33064,
+      "7": 12706,
+      "8": 3673,
+      "9": 883,
+      "10": 126,
+      "11": 7
+    }
+  },
+  "overlap_count": 0
+}

@@ -1,0 +1,85 @@
+{
+  "validation_pairs_evaluated": 30000,
+  "throughput_records_per_sec": 10202.4,
+  "recovery_rates_pct": {
+    "raw": 4.35,
+    "casefold": 10.4,
+    "clean": 26.01,
+    "suffix_stripped": 48.02,
+    "alphanumeric": 48.3,
+    "sorted_tokens": 50.57,
+    "domain_handle": 26.03,
+    "any_exact_union": 50.87
+  },
+  "address_metrics": {
+    "exact_clean_pct": 11.55,
+    "house_number_match_pct": 87.52,
+    "postal_code_match_pct": 88.79,
+    "mean_jaccard": 0.689,
+    "median_jaccard": 0.7
+  },
+  "collision_analysis": {
+    "raw": {
+      "total_entities": 100000,
+      "unique_values": 90365,
+      "collision_rate_pct": 9.64,
+      "max_group_size": 16,
+      "top_string": "Eye Group",
+      "median_group_size": 1.0,
+      "p95_group_size": 2.0,
+      "p99_group_size": 4.0
+    },
+    "clean": {
+      "total_entities": 100000,
+      "unique_values": 89761,
+      "collision_rate_pct": 10.24,
+      "max_group_size": 16,
+      "top_string": "eye group",
+      "median_group_size": 1.0,
+      "p95_group_size": 2.0,
+      "p99_group_size": 4.0
+    },
+    "suffix_stripped": {
+      "total_entities": 100000,
+      "unique_values": 82750,
+      "collision_rate_pct": 17.25,
+      "max_group_size": 31,
+      "top_string": "meridian",
+      "median_group_size": 1.0,
+      "p95_group_size": 2.0,
+      "p99_group_size": 5.0
+    },
+    "alphanumeric": {
+      "total_entities": 100000,
+      "unique_values": 82740,
+      "collision_rate_pct": 17.26,
+      "max_group_size": 31,
+      "top_string": "meridian",
+      "median_group_size": 1.0,
+      "p95_group_size": 2.0,
+      "p99_group_size": 5.0
+    },
+    "sorted_tokens": {
+      "total_entities": 100000,
+      "unique_values": 82697,
+      "collision_rate_pct": 17.3,
+      "max_group_size": 31,
+      "top_string": "meridian",
+      "median_group_size": 1.0,
+      "p95_group_size": 2.0,
+      "p99_group_size": 5.0
+    }
+  },
+  "script_distribution": {
+    "Latin": 30000,
+    "Latin_to_Devanagari": 1177,
+    "Latin_to_Telugu": 212,
+    "Latin_to_Bengali": 166,
+    "Latin_to_Kannada": 152,
+    "Latin_to_Tamil": 151,
+    "Latin_to_Gujarati": 130,
+    "Latin_to_Malayalam": 110,
+    "Latin_to_Other": 35,
+    "Latin_to_Odia": 29
+  }
+}
