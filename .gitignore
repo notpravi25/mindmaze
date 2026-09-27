@@ -21,10 +21,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Editor & OS files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
-*.swo
+# Large dataset files and outputs
+dataset/
+output/
+*.tsv
+*.parquet
+*.pkl
+*.zip
+__pycache__/
+*.pyc

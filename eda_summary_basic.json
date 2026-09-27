@@ -1,0 +1,117 @@
+{
+  "train_source1.tsv": {
+    "filepath": "dataset\\train\\train_source1.tsv",
+    "size_mb": 200.33808994293213,
+    "rows": 2206821,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 0,
+      "country": 0
+    }
+  },
+  "train_source2.tsv": {
+    "filepath": "dataset\\train\\train_source2.tsv",
+    "size_mb": 466.63426208496094,
+    "rows": 5034616,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 168967,
+      "country": 0
+    }
+  },
+  "train_source3.tsv": {
+    "filepath": "dataset\\train\\train_source3.tsv",
+    "size_mb": 480.3711290359497,
+    "rows": 5285603,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 175916,
+      "country": 0
+    }
+  },
+  "train_ground_truth.tsv": {
+    "filepath": "dataset\\train\\train_ground_truth.tsv",
+    "size_mb": 121.13149929046631,
+    "rows": 2206821,
+    "columns": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "null_counts": {
+      "source1_entity_id": 0,
+      "matched_entity_ids": 123247
+    }
+  },
+  "test_source1.tsv": {
+    "filepath": "dataset\\test\\test_source1.tsv",
+    "size_mb": 166.9140682220459,
+    "rows": 1732544,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 0,
+      "country": 0
+    }
+  },
+  "test_source2.tsv": {
+    "filepath": "dataset\\test\\test_source2.tsv",
+    "size_mb": 485.855504989624,
+    "rows": 4887273,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 129408,
+      "country": 0
+    }
+  },
+  "test_source3.tsv": {
+    "filepath": "dataset\\test\\test_source3.tsv",
+    "size_mb": 482.5618476867676,
+    "rows": 5082316,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "null_counts": {
+      "entity_id": 0,
+      "business_name": 0,
+      "business_address": 136098,
+      "country": 0
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "num_evaluated_pairs": 793,
+  "exact_raw_name_pct": 3.0264817150063053,
+  "exact_lower_name_pct": 8.827238335435057,
+  "exact_norm_name_pct": 44.640605296343,
+  "mean_name_jaccard": 0.6386057476221411,
+  "median_name_jaccard": 0.6666666666666666,
+  "name_jaccard_ge_05_pct": 79.06683480453972,
+  "name_jaccard_ge_02_pct": 87.01134930643127,
+  "exact_raw_addr_pct": 1.639344262295082,
+  "exact_lower_addr_pct": 8.07061790668348,
+  "mean_addr_jaccard": 0.6050840572181269,
+  "median_addr_jaccard": 0.6428571428571429,
+  "pin_both_present_pct": 6.6834804539722565,
+  "pin_match_pct_when_present": 88.67924528301887,
+  "has_non_ascii_name_pct": 13.493064312736443,
+  "has_non_ascii_addr_pct": 9.331651954602775,
+  "sample_variations": [
+    {
+      "country": "India",
+      "s1_name": "Celestial Memorial Trust",
+      "t_name": "Celestial Memorial",
+      "s1_addr": "No. 35, Brentwood Apartments, Defence Colony, 2Nd Main, Indiranagar, Bangalore, Karnataka",
+      "t_addr": "35 , BRENTWOOD APARTMENTS, DEFENCE COLONY, 2ND MAIN, INDIRANAGAR, BANGALORE, Karnataka"
+    },
+    {
+      "country": "US",
+      "s1_name": "XX Apex Nippon",
+      "t_name": "XX Nippon Apex",
+      "s1_addr": "5604 Brooklyn Avenue, Kansas City, MO",
+      "t_addr": "BROOKLYN AVENUE, KANSAS CITY, MO"
+    },
+    {
+      "country": "US",
+      "s1_name": "Shelagh Jones Water Center",
+      "t_name": "Shelagh Jones Water  Center",
+      "s1_addr": "MN, Madison, 2476 261st Avenue",
+      "t_addr": "##2476 261st Ave, Madison, Minnesota"
+    },
+    {
+      "country": "US",
+      "s1_name": "Krystalle Showalter Templeton LLC",
+      "t_name": "Krystalle Showalter-Templeton L.L.C.",
+      "s1_addr": "Bingham, ME, 27 River Street",
+      "t_addr": "27 River St, Bingham, Maine"
+    },
+    {
+      "country": "US",
+      "s1_name": "American Choice Service LLC",
+      "t_name": "AMERICAN CHOICE SERVICE [[LLC]]",
+      "s1_addr": "216 Metropolitan Drive, NY, Rochester",
+      "t_addr": "1 METROPOLITAN DR, ROCHESTER, NY"
+    },
+    {
+      "country": "US",
+      "s1_name": "Urology Partners Inc",
+      "t_name": "Urology Partners  Inc",
+      "s1_addr": "6207 Ocean Front Avenue, VA, Virginia Beach City",
+      "t_addr": "6207 OCEAN FRONT AVE, VIRGINIA BEACH CITY, VA"
+    },
+    {
+      "country": "US",
+      "s1_name": "Family Health LLC",
+      "t_name": "Family Health",
+      "s1_addr": "112 Culbertson Street, Fostoria, OH",
+      "t_addr": "112 Culbertson Street, Fostoria, Ohio"
+    },
+    {
+      "country": "India",
+      "s1_name": "Shakti Agro Limited",
+      "t_name": "ଶକ୍ତି ଆଗ୍ରୋ ଲିମିଟେଡ୍",
+      "s1_addr": "C/O Gurnav Singh Saluja, Beside Zudio, Kultapara, Sadar, Sambalpur, Orissa",
+      "t_addr": "C/O GURNAV SINGH SALUJA, SADAR, Odisha"
+    },
+    {
+      "country": "US",
+      "s1_name": "Calhoun & Piccolo LLC",
+      "t_name": "CALHOUN LLC PICCOLO +",
+      "s1_addr": "4604 Charleston Street, Broken Arrow, OK",
+      "t_addr": "4604 CHARLESTON ST, BROKE NARROW CDP, OK"
+    },
+    {
+      "country": "India",
+      "s1_name": "Sai Construction",
+      "t_name": "Zephgildecto f/k/a Sai Construction",
+      "s1_addr": "5Th Floor, Bbr Avenue, Plot No 38, C Block 7/3, Brindavanamu Colony, Kokapet, Rajendranagar, K.V.Rangareddy, Telangana",
+      "t_addr": "Rajendranagar, Telangana, K.V.Rangareddy, 5Th Floor, Bbr Avenue, Plot No 38, C Block 7/3, Brindavanamu Colony, Kokapet"
+    }
+  ]
+}
